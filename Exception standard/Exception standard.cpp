@@ -15,5 +15,8 @@ int main()
 	}
 	catch (exception& e) {
 		cout << e.what() << endl;
+		/*akan dieksekusi karna array data hanya memiliki 3 elemen*/
 	}
+	cout << "Baris Program Yang terakhir" << endl;
+	/*penanada 2: nahwa program hanya berjalan tanpa berhenti meskipun terjadi kesalahan*/
 }
