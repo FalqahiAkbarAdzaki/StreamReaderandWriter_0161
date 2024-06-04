@@ -7,5 +7,8 @@ int main() {
 	string baris;
 	string NamaFile;
 
-	cout
+	cout << "Masukkan Nama File : ";
+	cin >> NamaFile;
+
+	ofstream outfile;
 }
